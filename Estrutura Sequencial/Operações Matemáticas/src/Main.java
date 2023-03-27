@@ -27,6 +27,23 @@ public class Main {
 		B = Math.abs(z);
 		System.out.println("O valor absoluto de " + y + " é " + A); 
 		System.out.println("O valor absoluto de " + z + " é " + B); 
+		
+		double delta;
+		double x1;
+		double x2;
+		
+		A = 4.0;
+		B = 16.0;
+		C = 9.0;
+		
+		delta = (Math.pow(B, 2.0)) - (4 * A * C);
+		x1 = (-B + Math.sqrt(delta)) / (2.0 * A);
+		x2 = (-B - Math.sqrt(delta)) / (2.0 * A);
+		
+		System.out.println("O valor de delta é " + delta);
+		System.out.println("O valor de x1 é " + x1);
+		System.out.println("O valor de x2 é " + x2);
+		
 	}
 
 }
