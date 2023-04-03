@@ -11,7 +11,7 @@ public class Main {
 			for (int I = 1; I <= N; I++) {
 				int quadrado = (int) Math.pow(I, 2);
 				int cubo = (int) Math.pow(I, 3);
-				System.out.printf("%d %d %d%n", I, quadrado, cubo);
+				System.out.printf("%d %d %d%n5", I, quadrado, cubo);
 			}
 		}
 		sc.close();
