@@ -14,14 +14,14 @@ public class Program {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter account number");
+		System.out.print("Enter account number");
 		int number = sc.nextInt();
 		sc.nextLine();
 		
-		System.out.println("Enter account holder");
+		System.out.print("Enter account holder");
 		String name = sc.nextLine();
 		
-		System.out.println("Is there an initial deposit? Y/N");
+		System.out.print("Is there an initial deposit? Y/N");
 		String resposta = sc.nextLine();
 		System.out.println();
 		
@@ -38,13 +38,13 @@ public class Program {
 		}
 		printData(account, "Account data");
 		System.out.println();
-		System.out.println("Enter a deposit value");
+		System.out.print("Enter a deposit value");
 		
 		account.deposit(sc.nextDouble());
 		printData(account, "Updated account data");
 		
 		System.out.println();
-		System.out.println("Enter a withdraw value");
+		System.out.print("Enter a withdraw value");
 		
 		account.withdraw(sc.nextDouble());
 		printData(account, "Updated account data");
