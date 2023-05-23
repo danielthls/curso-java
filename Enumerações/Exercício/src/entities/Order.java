@@ -32,9 +32,9 @@ public class Order {
 		return status;
 	}
 	
-	public List<OrderItem> getItems() {
-		return items;
-	}
+	//public List<OrderItem> getItems() {
+		//return items;
+	//}
 	
 	public Client getClient() {
 		return client;
