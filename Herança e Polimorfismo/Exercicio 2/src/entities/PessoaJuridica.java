@@ -30,11 +30,7 @@ public class PessoaJuridica extends Pessoa {
 	@Override
 	public final Double aliquota() {
 		// TODO Auto-generated method stub
-		if (this.funcionarios > 10) {
-			return 0.14;
-		}
-		
-		return 0.16;
+		return (this.funcionarios > 10) ? 0.14 : 0.16;
 	}
 
 }
