@@ -54,16 +54,12 @@ public class Program {
 			
 			System.out.println(String.format("Sum of salary of people whose name starts with 'M': %.2f", sum));
 		}
-		
-		
-	
-		
+			
 		catch (IOException e) {
 			System.out.println("Error: " + e.getMessage());
 		}
 		
 		sc.close();
-
 	}
 
 }
